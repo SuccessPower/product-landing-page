@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+}
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: .95;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    /* line-height: 10px; */
+    display: inline-flex;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#header-img {
+    width: 200px;
+    height: 93px;
+    /* align-self: flex-end; */
+}
+#nav-bar {
+    float: right;
+    align-self: flex-end;
+    margin-left: 15%;
+    word-spacing: 15px;
+    /* float: left; */
+}
+#home {
+    background-image: url(image/hublot-watch.jpg)
+}
+#homediv {
+    width: 100%;
+    height: 100;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+}
+.home-content {
+    color: white;
+    text-align: left;
+    /* margin: 20px; */
+    /* border: 20px; */
+    padding: 100px;
+}
+.midlink {
+    /* display: flex; */
+    background-color: black;
+    color: white;
+    /* float: right; */
+    word-spacing: 50px;
+    /* margin: 10%; */
+    text-align: center;
+}
+.fbox3 {
+    
+}
+#videoreview {
+    background-color: black;
+    padding: 10px;
+}
