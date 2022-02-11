@@ -11,7 +11,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 1em;
     /* line-height: 10px; */
-    display: inline-flex;
+    display: flex;
 }
 a {
     color: rgb(0, 0, 0);
@@ -28,9 +28,9 @@ a:hover {
 #nav-bar {
     float: right;
     align-self: flex-end;
-    margin-left: 15%;
-    word-spacing: 15px;
-    /* float: left; */
+    /* margin-left: 15%; */
+    /* word-spacing: 5px; */
+    float: right;
 }
 #home {
     background-image: url(image/hublot-watch.jpg)
